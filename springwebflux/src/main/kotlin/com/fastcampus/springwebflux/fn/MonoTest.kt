@@ -1,4 +1,4 @@
-package com.fastcampus.springwebflux
+package com.fastcampus.springwebflux.fn
 
 import reactor.core.publisher.Mono
 
