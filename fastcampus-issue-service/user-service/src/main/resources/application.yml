@@ -1,0 +1,8 @@
+server:
+  port: 9090
+
+jwt:
+  issuer: java #프로젝트 이름
+  subject: auth
+  expires-time: 3600 #1시간
+  secret: my-secret

@@ -1,10 +1,9 @@
-package fastcampus.issueservice.controller
+package fastcampus.issueservice.web
 
 import fastcampus.issueservice.config.AuthUser
 import fastcampus.issueservice.model.CommentRequest
 import fastcampus.issueservice.model.CommentResponse
 import fastcampus.issueservice.service.CommentService
-import org.springframework.http.HttpStatus
 import org.springframework.http.HttpStatus.NO_CONTENT
 import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.PathVariable
